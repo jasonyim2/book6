@@ -6,6 +6,12 @@
 
 # 발행인 한창훈, 편집 김은숙
 
+### 책 출간 후 코드 수정 사항
+독자 여러분의 피드백으로 다음과 같이 깃허브의 책 코드 중 관련 부분을 수정해 업로드했습니다. 
+피드백을 보내주신 독자 여러분께 감사드립니다.
+기존 코드: from transformers import AdamW
+변경 코드: from torch.optim import AdamW
+변경 사유: transformers에서 더 이상 AdamW를 제공하지 않아서 이를 반영하였습니다.
 
 다음의 링크를 통해 책에서 활용된 예제 소스를 내려받을 수 있습니다.
 ■ 한글 번역본 예제 소스 _ https://github.com/jasonyim2/book6
@@ -21,3 +27,4 @@
 
 # ■ 한글 번역본에 대한 질의(역자) _ jasonyim@naver.com
 # ■ 영어 원서에 대한 질의(저자) _ errata@bpbonline.com
+
