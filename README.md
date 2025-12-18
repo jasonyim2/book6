@@ -13,6 +13,15 @@
 변경 코드: from torch.optim import AdamW
 변경 사유: transformers에서 더 이상 AdamW를 제공하지 않아서 이를 반영하였습니다.
 
+다음 두 데이터셋은 깃헙이 허용하는 25MB 용량을 넘어서서 구글 드라이브 링크를 제공합니다.
+다운로드 받아서 여러분 구글 드라이브에 업로드하여 기존 코드와 함께 사용하세요.
+
+Ch7 p138 축소 데이터셋 링크
+https://drive.google.com/drive/folders/1FhOdv0gsikX3Ac34bBsjDol4GaNOd780
+
+Ch8 p152 축소 데이터셋 링크
+https://drive.google.com/drive/folders/1z3aggoWTRXUWpnsvAhfwzevwuLfGPCyW
+
 다음의 링크를 통해 책에서 활용된 예제 소스를 내려받을 수 있습니다.
 ■ 한글 번역본 예제 소스 _ https://github.com/jasonyim2/book6
 
